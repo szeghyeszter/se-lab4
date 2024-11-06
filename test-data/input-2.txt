@@ -1,0 +1,6 @@
+# Firing alternates and in case of one reporting back a failure, it fires from the other store if available
+GT4500,3,0,0,0
+TORPEDO,SINGLE # should have fired from a single store (stores left: 2,0)
+TORPEDO,SINGLE # should have fired from a single store (stores left: 1,0)
+TORPEDO,SINGLE # should have fired from a single store (stores left: 0,0)
+TORPEDO,SINGLE # should have reported back a failure, stores went under 0
