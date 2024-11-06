@@ -1,0 +1,7 @@
+# TORPEDO ALL firing
+GT4500,4,0,2,0
+TORPEDO,ALL # should have fired from both of the stores (stores left: 3,1)
+TORPEDO,ALL # should have fired from both of the stores (stores left: 2,0)
+TORPEDO,ALL # should have fired from both of the stores (stores left: 1,0)
+TORPEDO,ALL # should have fired from a single store (stores left: 0,0)
+TORPEDO,ALL # should have reported back a failure
